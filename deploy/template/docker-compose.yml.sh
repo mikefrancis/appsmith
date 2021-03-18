@@ -55,7 +55,7 @@ services:
       - appsmith
 
   mongo:
-    image: arm64v8/mongo
+    image: arm64v8/mongo:4.0-xenial
     expose:
       - "27017"
     environment:
