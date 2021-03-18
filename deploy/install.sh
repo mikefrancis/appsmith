@@ -139,6 +139,11 @@ check_os() {
             os="debian"
             package_manager="apt-get"
             ;;
+        Raspbian*)
+            desired_os=1
+            os="debian"
+            package_manager="apt-get"
+            ;;
         Linux\ Mint*)
             desired_os=1
             os="linux mint"
